@@ -7,6 +7,8 @@ import { Page } from '../model/page.model';
 import { BlogPostModel } from '../model/blogpost.model';
 import getConfig from 'next/config';
 
+//changes by Vishakha 
+
 const { publicRuntimeConfig } = getConfig();
 const envConfig = process.env.CONTENTSTACK_API_KEY
     ? process.env
